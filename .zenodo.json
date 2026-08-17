@@ -1,0 +1,25 @@
+{
+  "title": "I-CEM: Context-Aware Evidence Minimization for Privacy-Conscious Harmful-Speech Dataset Release",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Örene, Batın",
+      "affiliation": "Department of Computer Engineering, Bahçeşehir University",
+      "orcid": "0000-0002-3342-0808"
+    }
+  ],
+  "description": "<p>Code, experiment configs, run manifests, and aggregate results for the WOAH 2026 paper <em>Context-Aware Evidence Minimization for Privacy-Conscious Harmful-Speech Dataset Release</em>.</p><p>I-CEM is a deterministic release baseline for sharing harmful-speech corpora. It masks identifier spans, selects evidence tokens by leave-one-out erasure attribution against a frozen classifier, and expands the retained spans only when rule-based target&ndash;harm or stance&ndash;harm relations fire. Releasing only classifier-important tokens corrupts the data: an independent lexicon-free LLM judge recovers the targeted group from such excerpts only 36% of the time and reads 53% of non-hateful excerpts as hateful. I-CEM's primary result is target recovery, improving from 58% to 67% over a token-matched fixed window, a gain that replicates against gold target labels.</p><p>No datasets, raw posts, or transformed release rows are included. The paper is published separately by the ACL and is not distributed here.</p>",
+  "keywords": [
+    "hate speech",
+    "content moderation",
+    "dataset release",
+    "privacy",
+    "text anonymization",
+    "natural language processing",
+    "computational social science"
+  ],
+  "language": "eng",
+  "communities": []
+}
