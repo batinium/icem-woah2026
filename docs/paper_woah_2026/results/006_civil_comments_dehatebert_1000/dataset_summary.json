@@ -1,0 +1,31 @@
+{
+  "row_count": 1000,
+  "datasets": {
+    "civil_comments": 1000
+  },
+  "splits": {
+    "validation": 1000
+  },
+  "labels": {
+    "non-toxic": 916,
+    "toxic": 84
+  },
+  "binary_labels": {
+    "0": 916,
+    "1": 84
+  },
+  "target_groups_top20": {
+    "white": 24,
+    "women": 21,
+    "immigrant": 11,
+    "gay": 10,
+    "muslim": 9,
+    "black": 7,
+    "christian": 5,
+    "jewish": 3,
+    "disabled": 3,
+    "asian": 2,
+    "trans": 2
+  },
+  "rows_with_rationales": 0
+}

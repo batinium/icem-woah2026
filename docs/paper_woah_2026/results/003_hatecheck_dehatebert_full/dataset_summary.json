@@ -1,0 +1,27 @@
+{
+  "row_count": 3728,
+  "datasets": {
+    "hatecheck": 3728
+  },
+  "splits": {
+    "test": 3728
+  },
+  "labels": {
+    "hateful": 2563,
+    "non-hateful": 1165
+  },
+  "binary_labels": {
+    "0": 1165,
+    "1": 2563
+  },
+  "target_groups_top20": {
+    "gay people": 551,
+    "women": 509,
+    "disabled people": 484,
+    "Muslims": 484,
+    "black people": 482,
+    "trans people": 463,
+    "immigrants": 463
+  },
+  "rows_with_rationales": 0
+}

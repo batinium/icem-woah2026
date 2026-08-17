@@ -1,0 +1,142 @@
+{
+  "model": "openai/gpt-oss-20b (tool-call)",
+  "n_judged": 400,
+  "hate_fidelity": {
+    "denominator_raw_clear": 397,
+    "variants": {
+      "importance_only": {
+        "n": 397,
+        "fidelity_pct": 65.7,
+        "ci95": [
+          61.2,
+          70.3
+        ],
+        "collapsed_unclear_pct": 20.7
+      },
+      "importance_window_r2": {
+        "n": 397,
+        "fidelity_pct": 76.8,
+        "ci95": [
+          72.5,
+          80.9
+        ],
+        "collapsed_unclear_pct": 10.6
+      },
+      "window_r3_matched": {
+        "n": 397,
+        "fidelity_pct": 81.9,
+        "ci95": [
+          77.8,
+          85.6
+        ],
+        "collapsed_unclear_pct": 5.5
+      },
+      "icem_context": {
+        "n": 397,
+        "fidelity_pct": 84.4,
+        "ci95": [
+          80.6,
+          87.9
+        ],
+        "collapsed_unclear_pct": 3.3
+      }
+    },
+    "mcnemar": {
+      "icem_vs_importance_only": {
+        "discordant": 106,
+        "icem_context_only": 90,
+        "importance_only_only": 16,
+        "p": 0.0
+      },
+      "icem_vs_matched_window": {
+        "discordant": 58,
+        "icem_context_only": 34,
+        "window_r3_matched_only": 24,
+        "p": 0.237
+      },
+      "matched_window_vs_importance_only": {
+        "discordant": 94,
+        "window_r3_matched_only": 79,
+        "importance_only_only": 15,
+        "p": 0.0
+      }
+    }
+  },
+  "target_recovery": {
+    "importance_only": {
+      "n": 348,
+      "recovered_vs_raw_pct": 56.6,
+      "ci95": [
+        51.1,
+        61.8
+      ]
+    },
+    "importance_window_r2": {
+      "n": 348,
+      "recovered_vs_raw_pct": 66.1,
+      "ci95": [
+        61.2,
+        71.0
+      ]
+    },
+    "window_r3_matched": {
+      "n": 348,
+      "recovered_vs_raw_pct": 69.5,
+      "ci95": [
+        64.7,
+        74.4
+      ]
+    },
+    "icem_context": {
+      "n": 348,
+      "recovered_vs_raw_pct": 75.9,
+      "ci95": [
+        71.3,
+        80.2
+      ]
+    },
+    "denominator": 348,
+    "mcnemar_icem_vs_importance_only": {
+      "discordant": 109,
+      "icem_context_only": 88,
+      "importance_only_only": 21,
+      "p": 0.0
+    },
+    "mcnemar_icem_vs_matched_window": {
+      "discordant": 76,
+      "icem_context_only": 49,
+      "window_r3_matched_only": 27,
+      "p": 0.0154
+    }
+  },
+  "hate_flip_detail": {
+    "importance_only": {
+      "raw_NO_rows": 89,
+      "NO_to_YES(counterspeech_read_as_hate)": 28,
+      "NO_to_YES_pct": 31.5,
+      "raw_YES_rows": 308,
+      "YES_to_NO_pct": 8.4
+    },
+    "importance_window_r2": {
+      "raw_NO_rows": 89,
+      "NO_to_YES(counterspeech_read_as_hate)": 19,
+      "NO_to_YES_pct": 21.3,
+      "raw_YES_rows": 308,
+      "YES_to_NO_pct": 10.1
+    },
+    "window_r3_matched": {
+      "raw_NO_rows": 89,
+      "NO_to_YES(counterspeech_read_as_hate)": 23,
+      "NO_to_YES_pct": 25.8,
+      "raw_YES_rows": 308,
+      "YES_to_NO_pct": 8.8
+    },
+    "icem_context": {
+      "raw_NO_rows": 89,
+      "NO_to_YES(counterspeech_read_as_hate)": 25,
+      "NO_to_YES_pct": 28.1,
+      "raw_YES_rows": 308,
+      "YES_to_NO_pct": 7.8
+    }
+  }
+}

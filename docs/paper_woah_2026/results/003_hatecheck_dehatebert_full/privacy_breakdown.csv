@@ -1,0 +1,7 @@
+variant,row_count,direct_pii_gold_total,direct_pii_residual_count,direct_pii_residual_rate,direct_pii_removed_recall,quasi_identifier_gold_total,quasi_identifier_residual_count,quasi_identifier_residual_rate,detected_direct_identifier_residual_count,detected_quasi_identifier_residual_count,detected_source_marker_residual_count
+raw,3728,3769,3769,1.0,0.0,3720,3720,1.0,3769,5534,1814
+pii_mask,3728,3769,0,0.0,1.0,3720,3720,1.0,0,5534,1814
+pii_quasi_mask,3728,3769,0,0.0,1.0,3720,0,0.0,0,0,0
+importance_only,3728,3769,0,0.0,1.0,3720,0,0.0,0,0,0
+importance_window,3728,3769,0,0.0,1.0,3720,0,0.0,0,0,0
+icem_context,3728,3769,0,0.0,1.0,3720,0,0.0,0,0,0

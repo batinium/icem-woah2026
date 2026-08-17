@@ -1,0 +1,41 @@
+{
+  "row_count": 5000,
+  "datasets": {
+    "hatexplain": 5000
+  },
+  "splits": {
+    "train": 5000
+  },
+  "labels": {
+    "normal": 2016,
+    "hatespeech": 1557,
+    "offensive": 1427
+  },
+  "binary_labels": {
+    "0": 2016,
+    "1": 2984
+  },
+  "target_groups_top20": {
+    "african": 1142,
+    "women": 981,
+    "islam": 799,
+    "homosexual": 617,
+    "jewish": 601,
+    "arab": 448,
+    "caucasian": 419,
+    "refugee": 405,
+    "men": 394,
+    "hispanic": 185,
+    "asian": 170,
+    "christian": 62,
+    "minority": 57,
+    "disability": 45,
+    "heterosexual": 43,
+    "nonreligious": 25,
+    "indigenous": 23,
+    "hindu": 20,
+    "economic": 17,
+    "indian": 13
+  },
+  "rows_with_rationales": 2984
+}

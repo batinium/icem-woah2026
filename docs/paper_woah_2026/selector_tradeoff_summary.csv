@@ -1,0 +1,7 @@
+run,variant,setting,top_k,radius,positive_f1,flip_pct,retained_token_pct,retained_char_pct,target_cue_pct,target_harm_pct,stance_harm_pct,zero_pii_residual,placeholder_only_count,recommended_by_threshold,pareto_dominated,row_count
+005_hatexplain_dehatebert_5000,icem_context,"k=5, r=2",5,2,0.697,13.42,49.738,46.247,95.338,88.675,61.941,True,0,True,False,5000
+008_hatexplain_dehatebert_topk3_5000,icem_context,"k=3, r=2",3,2,0.7,14.2,44.152,40.888,93.853,87.229,59.924,True,0,False,False,5000
+009_hatexplain_dehatebert_topk7_5000,icem_context,"k=7, r=2",7,2,0.696,13.14,52.259,48.729,95.462,89.518,62.813,True,0,False,False,5000
+010_hatexplain_dehatebert_topk10_5000,icem_context,"k=10, r=2",10,2,0.699,12.84,53.952,50.391,95.627,89.759,63.577,True,0,False,False,5000
+011_hatexplain_dehatebert_radius1_5000,icem_context,"k=5, r=1",5,1,0.708,15.42,43.169,40.03,95.338,87.831,60.905,True,0,False,False,5000
+012_hatexplain_dehatebert_radius3_5000,icem_context,"k=5, r=3",5,3,0.692,12.36,55.831,53.068,95.338,89.398,62.541,True,0,False,False,5000

@@ -1,0 +1,18 @@
+{
+  "release_rows": "data/outputs/011_hatexplain_dehatebert_radius1_5000/release_rows.jsonl",
+  "row_count": 5000,
+  "variants": [
+    "raw",
+    "pii_mask",
+    "pii_quasi_mask",
+    "importance_only",
+    "importance_window",
+    "icem_context"
+  ],
+  "evaluator_classifier": "unitary/unbiased-toxic-roberta",
+  "classifier_batch_size": 64,
+  "classifier_device": "auto",
+  "classifier_resolved": "unitary/unbiased-toxic-roberta",
+  "classifier_details": "Hugging Face sequence classifier unitary/unbiased-toxic-roberta; harmful_positive_index=0; harmful_positive_label=toxicity; id2label={0: 'toxicity', 1: 'severe_toxicity', 2: 'obscene', 3: 'identity_attack', 4: 'insult', 5: 'threat', 6: 'sexual_explicit', 7: 'male', 8: 'female', 9: 'homosexual_gay_or_lesbian', 10: 'christian', 11: 'jewish', 12: 'muslim', 13: 'black', 14: 'white', 15: 'psychiatric_or_mental_illness'}; device=mps; batch_size=64; output_activation=sigmoid; in-memory prediction cache enabled",
+  "seed": 17
+}

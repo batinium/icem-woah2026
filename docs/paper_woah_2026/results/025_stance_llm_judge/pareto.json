@@ -1,0 +1,32 @@
+{
+  "importance_only_r0": {
+    "tok": 14.3,
+    "stance": 1.3,
+    "family": "window"
+  },
+  "window_r1": {
+    "tok": 35.5,
+    "stance": 11.0,
+    "family": "window"
+  },
+  "window_r2": {
+    "tok": 49.7,
+    "stance": 26.3,
+    "family": "window"
+  },
+  "window_r3": {
+    "tok": 59.7,
+    "stance": 42.1,
+    "family": "window"
+  },
+  "icem": {
+    "tok": 57.5,
+    "stance": 49.1,
+    "family": "icem"
+  },
+  "icem_vs_window_frontier_at_57.5pct": {
+    "window_interp_stance": 38.6,
+    "icem_stance": 49.1,
+    "icem_above_frontier_pts": 10.5
+  }
+}

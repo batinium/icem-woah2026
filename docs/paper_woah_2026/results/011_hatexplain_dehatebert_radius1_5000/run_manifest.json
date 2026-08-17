@@ -1,0 +1,14 @@
+{
+  "aggregate_output_dir": "docs/paper_woah_2026/results/011_hatexplain_dehatebert_radius1_5000",
+  "full_output_dir": "data/outputs/011_hatexplain_dehatebert_radius1_5000",
+  "row_count": 5000,
+  "variants": [
+    "raw",
+    "pii_mask",
+    "pii_quasi_mask",
+    "importance_only",
+    "importance_window",
+    "icem_context"
+  ],
+  "classifier": "Hate-speech-CNERG/dehatebert-mono-english"
+}

@@ -1,0 +1,14 @@
+{
+  "aggregate_output_dir": "docs/paper_woah_2026/results/003_hatecheck_dehatebert_full",
+  "full_output_dir": "data/outputs/003_hatecheck_dehatebert_full",
+  "row_count": 3728,
+  "variants": [
+    "raw",
+    "pii_mask",
+    "pii_quasi_mask",
+    "importance_only",
+    "importance_window",
+    "icem_context"
+  ],
+  "classifier": "Hate-speech-CNERG/dehatebert-mono-english"
+}

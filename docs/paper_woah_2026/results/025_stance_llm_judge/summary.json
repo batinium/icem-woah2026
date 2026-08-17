@@ -1,0 +1,73 @@
+{
+  "model": "qwen/qwen3.5-9b",
+  "n_stance_relevant_judged": 963,
+  "denominator_raw_nonassertion": 228,
+  "metric": "fraction of rows whose release still reads as a non-assertion stance (NEGATE/QUOTE/OPPOSE) to an independent judge, on rows whose full text reads as a non-assertion stance; lexicon-free",
+  "raw_label_distribution": {
+    "ASSERT": 671,
+    "QUOTE": 146,
+    "OPPOSE": 62,
+    "NEGATE": 20,
+    "UNCLEAR": 64
+  },
+  "variants": {
+    "importance_only": {
+      "retained_tokens_pct": 14.3,
+      "stance_preserved_pct": 1.3,
+      "ci95": [
+        0.0,
+        3.1
+      ]
+    },
+    "importance_window_r2": {
+      "retained_tokens_pct": 49.7,
+      "stance_preserved_pct": 26.3,
+      "ci95": [
+        20.6,
+        32.0
+      ]
+    },
+    "icem_context": {
+      "retained_tokens_pct": 57.5,
+      "stance_preserved_pct": 49.1,
+      "ci95": [
+        42.5,
+        55.7
+      ]
+    },
+    "window_r3_matched": {
+      "retained_tokens_pct": 59.7,
+      "stance_preserved_pct": 42.1,
+      "ci95": [
+        36.0,
+        48.7
+      ]
+    }
+  },
+  "mcnemar": {
+    "icem_vs_matched_window_r3": {
+      "discordant": 60,
+      "icem_context_only": 38,
+      "window_r3_matched_only": 22,
+      "p": 0.0519
+    },
+    "icem_vs_window_r2": {
+      "discordant": 64,
+      "icem_context_only": 58,
+      "importance_window_r2_only": 6,
+      "p": 0.0
+    },
+    "matched_window_vs_window_r2": {
+      "discordant": 50,
+      "window_r3_matched_only": 43,
+      "importance_window_r2_only": 7,
+      "p": 0.0
+    },
+    "icem_vs_importance_only": {
+      "discordant": 109,
+      "icem_context_only": 109,
+      "importance_only_only": 0,
+      "p": 0.0
+    }
+  }
+}

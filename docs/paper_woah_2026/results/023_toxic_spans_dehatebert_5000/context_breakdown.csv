@@ -1,0 +1,7 @@
+group_type,group,variant,row_count,positive_f1,prediction_flip_rate_raw,retained_token_pct,retained_char_pct,target_cue_preservation,harm_cue_preservation,negation_cue_preservation,quotation_cue_preservation,counterspeech_cue_preservation,target_harm_pair_preservation,stance_harm_relation_preservation,rationale_overlap
+dataset,toxic_spans,raw,5000,0.292918,0.0,100.0,100.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+dataset,toxic_spans,pii_mask,5000,0.292835,0.0002,100.0,100.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+dataset,toxic_spans,pii_quasi_mask,5000,0.292835,0.0006,100.0,100.0,1.0,1.0,1.0,0.99032,1.0,1.0,1.0,1.0
+dataset,toxic_spans,importance_only,5000,0.418605,0.2448,13.252,15.321,0.263672,0.292005,0.128959,0.023083,0.078125,0.047619,0.016207,0.657108
+dataset,toxic_spans,importance_window,5000,0.34712,0.1168,45.479,46.29,0.472656,0.498262,0.425339,0.469099,0.3125,0.190476,0.225284,0.776249
+dataset,toxic_spans,icem_context,5000,0.340885,0.1064,50.677,51.36,0.855469,0.707995,0.778733,0.774386,0.601562,0.70696,0.641815,0.792094

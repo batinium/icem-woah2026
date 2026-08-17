@@ -1,0 +1,7 @@
+group_type,group,variant,row_count,positive_f1,prediction_flip_rate_raw,retained_token_pct,retained_char_pct,target_cue_preservation,harm_cue_preservation,negation_cue_preservation,quotation_cue_preservation,counterspeech_cue_preservation,target_harm_pair_preservation,stance_harm_relation_preservation,rationale_overlap
+dataset,hatexplain,raw,5000,0.661258,0.0,100.0,100.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+dataset,hatexplain,pii_mask,5000,0.667887,0.0154,100.0,100.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+dataset,hatexplain,pii_quasi_mask,5000,0.666667,0.0278,100.0,100.0,1.0,1.0,1.0,0.601972,1.0,1.0,0.776445,1.0
+dataset,hatexplain,importance_only,5000,0.720209,0.2334,14.053,13.255,0.661716,0.704131,0.118255,0.053521,0.072464,0.296386,0.06325,0.188904
+dataset,hatexplain,importance_window,5000,0.723459,0.166,41.438,39.436,0.806106,0.844069,0.465557,0.207887,0.434783,0.563855,0.283533,0.433365
+dataset,hatexplain,icem_context,5000,0.715599,0.1346,50.86,47.767,0.970297,0.928032,0.880023,0.464225,0.847826,0.915663,0.63904,0.553922
