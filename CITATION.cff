@@ -10,6 +10,14 @@ authors:
     email: "batin.orene@bahcesehir.edu.tr"
 license: MIT
 repository-code: "https://github.com/batinium/icem-woah2026"
+doi: "10.5281/zenodo.21974841"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21974841"
+    description: "Concept DOI, resolves to the latest archived version. Cite this one."
+  - type: doi
+    value: "10.5281/zenodo.21974842"
+    description: "Version DOI for the v1.0.0 archive."
 keywords:
   - hate speech
   - content moderation
