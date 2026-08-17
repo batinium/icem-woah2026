@@ -1,5 +1,8 @@
 # I-CEM: Context-Aware Evidence Minimization for Harmful-Speech Dataset Release
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21974841.svg)](https://doi.org/10.5281/zenodo.21974841)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Code, experiment configs, and aggregate results for:
 
 > **Context-Aware Evidence Minimization for Privacy-Conscious Harmful-Speech
@@ -132,6 +135,14 @@ see [DATA.md](DATA.md).
 
 Machine-readable metadata is in [CITATION.cff](CITATION.cff). Both will be
 updated with pages and the ACL Anthology URL once the proceedings are live.
+
+To cite this software specifically, use the archived snapshot:
+
+> Örene, B. (2026). *I-CEM: Context-Aware Evidence Minimization for
+> Privacy-Conscious Harmful-Speech Dataset Release* (v1.0.0). Zenodo.
+> https://doi.org/10.5281/zenodo.21974841
+
+That is the concept DOI, which always resolves to the latest version.
 
 ## Contact
 
